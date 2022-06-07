@@ -1,16 +1,15 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ToggleButton from './ToggleButton';
 
 class Header extends Component {
-	constructor(props){
+	constructor(props) {
 		super(props);
 	}
 
-	render(){
+	render() {
 		return (<div className='header'>
 			<h1>CLOCK WORK</h1>
-			<ToggleButton/>
-			</div>)
+		</div>)
 	}
 }
 export default Header;
